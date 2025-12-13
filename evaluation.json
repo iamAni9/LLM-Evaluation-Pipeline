@@ -1,0 +1,92 @@
+[
+  {
+    "evaluation_timestamp": "2025-12-14T05:16:34.414543",
+    "target_turn": 6,
+    "metrics": {
+      "latency_seconds": 12.0,
+      "conversation_cost_usd": 313.35,
+      "eval_cost_usd": 310.5
+    },
+    "quality_check": {
+      "relevance_score": 0.9,
+      "factual_accuracy_score": 1.0,
+      "hallucination_detected": false,
+      "reasoning": "The response directly addresses the user's plan to travel for infertility treatment and aligns with the context that patients typically need only 10\u201120 days at the clinic. The stated duration matches the information provided in the travel text, and no incorrect figures or unsupported claims are made."
+    }
+  },
+  {
+    "evaluation_timestamp": "2025-12-14T05:16:36.414548",
+    "target_turn": 8,
+    "metrics": {
+      "latency_seconds": 12.0,
+      "conversation_cost_usd": 326.1,
+      "eval_cost_usd": 315.15
+    },
+    "quality_check": {
+      "relevance_score": 0.8,
+      "factual_accuracy_score": 0.0,
+      "hallucination_detected": true,
+      "reasoning": "The response addresses the user's question about speaking with Dr. Malpani, which is relevant. However, it provides specific details (online Zoom consultation, price \u20b93,000, scheduling) that are not present in the provided context, making the factual accuracy score 0.0 and indicating a hallucination."
+    }
+  },
+  {
+    "evaluation_timestamp": "2025-12-14T05:16:38.608378",
+    "target_turn": 10,
+    "metrics": {
+      "latency_seconds": 6.0,
+      "conversation_cost_usd": 276.59999999999997,
+      "eval_cost_usd": 295.34999999999997
+    },
+    "quality_check": {
+      "relevance_score": 0.9,
+      "factual_accuracy_score": 0.0,
+      "hallucination_detected": true,
+      "reasoning": "The AI supplies a mailing address, directly addressing the user query, so it is relevant. However, the provided address does not appear anywhere in the given context, indicating a fabricated detail; therefore factual accuracy is 0.0 and a hallucination is present."
+    }
+  },
+  {
+    "evaluation_timestamp": "2025-12-14T05:16:41.010784",
+    "target_turn": 12,
+    "metrics": {
+      "latency_seconds": 6.0,
+      "conversation_cost_usd": 302.85,
+      "eval_cost_usd": 299.1
+    },
+    "quality_check": {
+      "relevance_score": 1.0,
+      "factual_accuracy_score": 1.0,
+      "hallucination_detected": false,
+      "reasoning": "The answer directly addresses the user\u2019s question about accommodation assistance and cites options (Gopal Mansion, Hotel President, Hotel Supreme, Airbnb) that are explicitly mentioned in the provided context. No incorrect numbers or unsupported claims are introduced."
+    }
+  },
+  {
+    "evaluation_timestamp": "2025-12-14T05:16:43.088923",
+    "target_turn": 14,
+    "metrics": {
+      "latency_seconds": 9.0,
+      "conversation_cost_usd": 320.25,
+      "eval_cost_usd": 318.15
+    },
+    "quality_check": {
+      "relevance_score": 0.9,
+      "factual_accuracy_score": 0.3,
+      "hallucination_detected": true,
+      "reasoning": "The response correctly mentions the Gopal Mansion rate (Rs\u202f800) which is in the context, so it is relevant and partially accurate. However, it adds fabricated pricing for clinic rooms (Rs\u202f2000/1500) and a consultation link that are not present in any source, resulting in low factual accuracy and a hallucination."
+    }
+  },
+  {
+    "evaluation_timestamp": "2025-12-14T05:16:45.088914",
+    "target_turn": 18,
+    "metrics": {
+      "latency_seconds": 9.0,
+      "conversation_cost_usd": 319.5,
+      "eval_cost_usd": 321.9
+    },
+    "quality_check": {
+      "relevance_score": 0.9,
+      "factual_accuracy_score": 0.0,
+      "hallucination_detected": true,
+      "reasoning": "The AI response addresses the user\u2019s question about IVF/ICSI cost, so it is relevant. However, the provided price (Rs 3,00,000 + Rs 1,45,000 for medication) is not present in any of the given context sources, which only discuss hotels and travel logistics. Therefore the factual accuracy is zero and the statement is a hallucination."
+    }
+  }
+]
